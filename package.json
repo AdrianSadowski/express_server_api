@@ -1,0 +1,14 @@
+{
+  "name": "server_api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Adrian Sadowski",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "nodemon": "npx nodemon server.js"
+  }
+}
