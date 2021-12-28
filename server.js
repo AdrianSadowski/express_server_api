@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const app = express();
-
+const app = expr
 
 const testimonialsRoutes = require('./routes/testimonials.routes');
 const concertsRoutes = require('./routes/concerts.routes');
@@ -14,7 +13,6 @@ app.use(cors());
 app.listen(8000, () => {
   console.log('Server is running on port: 8000');
 });
-
 
 app.use('/api', testimonialsRoutes);
 app.use('/api', concertsRoutes);
