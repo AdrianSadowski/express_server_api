@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const app = expr
+const app = express();
 
 const testimonialsRoutes = require('./routes/testimonials.routes');
 const concertsRoutes = require('./routes/concerts.routes');
