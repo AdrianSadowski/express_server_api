@@ -8,19 +8,12 @@ class SeatChooser extends React.Component {
   componentDidMount() {
     const { loadSeats, loadSeatsData } = this.props;
     loadSeats();
-    //this.interval = setInterval(loadSeats, 12000); // refresh every 2 minutes(120000ms)
     this.socket = io(WS_URL, { transports: ['websocket'] });
     this.socket.on('seatsUpdated', (seats) => {
       loadSeatsData(seats);
     });
   }
-  // stopInterval() {
-  //   clearInterval(this.interval);
-  // }
 
-  // componentWillUnmount() {
-  //   this.stopInterval();
-  // }
 
   isTaken = (seatId) => {
     const { seats, chosenDay } = this.props;
