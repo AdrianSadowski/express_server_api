@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "61e99e1524a063103d9c9c9a"
+  },
+  "id": 1,
+  "day": 1,
+  "seat": 3,
+  "client": "Amanda Doe",
+  "email": "amandadoe@example.com"
+},{
+  "_id": {
+    "$oid": "61e99e1524a063103d9c9c9b"
+  },
+  "id": 2,
+  "day": 1,
+  "seat": 9,
+  "client": "Curtis Johnson",
+  "email": "curtisj@example.com"
+},{
+  "_id": {
+    "$oid": "61e99e1524a063103d9c9c9c"
+  },
+  "id": 3,
+  "day": 1,
+  "seat": 10,
+  "client": "Felix McManara",
+  "email": "felxim98@example.com"
+},{
+  "_id": {
+    "$oid": "61e99e1524a063103d9c9c9d"
+  },
+  "id": 4,
+  "day": 1,
+  "seat": 26,
+  "client": "Fauna Keithrins",
+  "email": "mefauna312@example.com"
+},{
+  "_id": {
+    "$oid": "61e99e1524a063103d9c9c9e"
+  },
+  "id": 5,
+  "day": 2,
+  "seat": 1,
+  "client": "Felix McManara",
+  "email": "felxim98@example.com"
+},{
+  "_id": {
+    "$oid": "61e99e1524a063103d9c9c9f"
+  },
+  "id": 6,
+  "day": 2,
+  "seat": 2,
+  "client": "Molier Lo Celso",
+  "email": "moiler.lo.celso@example.com"
+},{
+  "_id": {
+    "$oid": "61eb16757b4ce7ab81ad22c5"
+  },
+  "day": 2,
+  "seat": 13,
+  "client": "TEST",
+  "email": "test@mail.com",
+  "__v": 0
+}]
