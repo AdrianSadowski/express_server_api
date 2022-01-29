@@ -126,3 +126,6 @@ exports.getbyDay = async (req, res) => {
     res.status(500).json({ message: err });
   }
 };
+
+// ## TO DO LIST:
+// 31.1 Zawsze waliduj dane również na serwerze
